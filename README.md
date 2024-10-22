@@ -117,10 +117,10 @@ Detalla qué debes tomar en cuenta: Asegúrate de eliminar cualquier imformació
 *"Hola, Fedora. Necesito que leas el siguiente código y generes una documentación completa en formato Markdown que incluya la siguiente información:
 
 Nombre del programa: Formato # [NOMBRE PROGRAMA].
-**CONTROLADOR:** Debe tener el formato - **Controlador:** [NOMBRE DE CONTROL].
-**Descripción:** Formato - **Descripción:** [DESCRIPCION DEL PROGRAMA].
-**Versión:** Debe tener el formato - **Versión:** [VERSIÓN DEL PROGRAMA].
-**Autor:** Formato **Autor:** [NOMBRE DEL AUTOR] - @id.
+Controlador: Debe tener el formato - **CONTROLADOR:** [NOMBRE DE CONTROL].
+Descripción: Formato - **DESCRIPCIÓN:** [DESCRIPCION DEL PROGRAMA].
+Versión: Debe tener el formato - **VERSIÓN:** [VERSIÓN DEL PROGRAMA].
+Autor: Formato **AUTOR:** [NOMBRE DEL AUTOR] - @id.
 Luego, quiero que generes una sección llamada Variables de control para mostrar todas las variables utilizadas en el programa. La estructura de esta sección debe ser la siguiente:
 
 Clasifica las variables en grupos de acuerdo a la funcionalidad que tengan dentro del programa.
