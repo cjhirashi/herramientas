@@ -114,7 +114,7 @@ Detalla qué debes tomar en cuenta: Asegúrate de eliminar cualquier imformació
 ### Carlos
 Generación de documentación de programas para controladores KMC
 
-1. Extraer información del programa
+1. Analizar el programa
 ```plaintext
 Hola Fedora, necesito que leas y analices el siguiente código [CODIGO] por favor.
 
