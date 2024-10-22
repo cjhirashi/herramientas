@@ -117,6 +117,8 @@ Generación de documentación de programas para controladores KMC
 1. Extraer información del programa
 ```plaintext
 Hola Fedora, necesito que leas y analices el siguiente código [CODIGO] por favor.
+
+[CODIGO]= codigo
 ```
 2. Extraer información de identificación del programa
 ```txt
