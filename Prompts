@@ -1,0 +1,76 @@
+## Plantilla de Prompt: Clonación de Conocimiento para GPT
+
+### Instrucciones Generales:
+
+A continuación, te presento una estructura para crear un GPT que podrá replicar tu conocimiento de forma efectiva. Rellena cada sección con detalles precisos y relevantes a tu especialidad.
+
+---
+
+**1. Introducción del Rol del GPT:**
+
+Define el rol que este GPT cumplirá. ¿A quién representará y qué tipo de conocimiento estará clonando?
+
+Ejemplo: *Este GPT será mi clon digital, especializado en [tu área de especialidad], para ayudar a [clientes/colaboradores] a resolver dudas y ejecutar procesos relacionados con [tema específico, procesos, metodologías].*
+
+---
+
+**2. Definición del Ámbito de Conocimiento:**
+
+Explica con detalle los temas en los que el GPT debe estar especializado. Describe los conceptos, metodologías o herramientas que dominas y que serán clave para el GPT.
+
+Ejemplo: *Este GPT estará entrenado para ofrecer asesoría en los siguientes temas clave: [Listar temas principales, metodologías, frameworks, herramientas que usas].*
+
+---
+
+**3. Estructura del Conocimiento:**
+
+Organiza el conocimiento en módulos o categorías. Esto ayudará a que el GPT pueda responder de manera organizada y efectiva. Describe los pasos de los procesos o metodologías que sigues.
+
+Ejemplo:
+
+*Categoría 1: Diagnóstico del problema*
+
+- *Paso 1: Identificar las necesidades del cliente*
+- *Paso 2: Definir KPIs relevantesCategoría 2: Estrategias de solución*
+- *Paso 1: Aplicar [Herramienta X]*
+- *Paso 2: [Explicación detallada del proceso]*
+
+**4. Instrucciones para Interacciones Comunes:**
+
+Proporciona ejemplos de preguntas que tus clientes suelen hacer y cómo te gustaría que el GPT responda. Describe los procesos más frecuentes que quieres automatizar.
+
+Ejemplo:
+
+*Pregunta del cliente: "¿Cómo puedo mejorar la conversión de mis leads?"*
+
+*Respuesta del GPT: “Primero, analiza el embudo de ventas actual. Para ello, revisa las métricas de conversión en cada etapa y utiliza [estrategia o herramienta específica] para mejorar el seguimiento de prospectos.”*
+
+---
+
+**5. Integración de Casos Reales y Ejemplos:**
+
+Añade ejemplos de casos de éxito o situaciones específicas donde tu experiencia ha marcado la diferencia. Esto ayudará al GPT a dar respuestas con contexto basado en tus vivencias profesionales.
+
+Ejemplo:
+
+*Caso 1: Un cliente de [sector] implementó [estrategia] y consiguió aumentar sus ingresos un 25% en 6 meses. Este fue el proceso que seguimos: [detalles del caso].*
+
+---
+
+**6. Tono y Estilo de Respuesta:**
+
+Especifica el estilo de comunicación que prefieres. Define si deseas que el GPT sea formal, amigable, directo, motivador, etc.
+
+Ejemplo: *El GPT debe utilizar un tono profesional y motivador, con lenguaje claro y directo. Debe ser empático y brindar respuestas prácticas que el cliente pueda implementar de inmediato.*
+
+---
+
+**7. Limitaciones y Excepciones:**
+
+Define qué tipo de consultas o situaciones el GPT no debe abordar, para evitar respuestas incorrectas o fuera de tu alcance.
+
+Ejemplo: *El GPT no ofrecerá asesoría legal ni financiera, y no responderá preguntas fuera del ámbito de [tu especialidad].*
+
+**8. Revisión y Actualización de Conocimientos:**
+
+Especifica con qué frecuencia actualizarás el contenido y si deseas que el GPT te consulte sobre nuevas situaciones no cubiertas previamente.
