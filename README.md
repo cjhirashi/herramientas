@@ -122,9 +122,9 @@ Hola Fedora, necesito que leas y analices el siguiente código [CODIGO] por favo
 ```
 2. Extraer información de identificación del programa
 ```txt
-Fedora, ahora necesito que extraiga la siguiente información:
+Fedora, ahora necesito que identifiques la siguiente información y me la presentes de la siguiente forma:
 
-Nombre del programa, Formato # [NOMBRE PROGRAMA].
+Nombre del programa, Formato [# NOMBRE PROGRAMA].
 Controlador, Formato - **CONTROLADOR:** [NOMBRE DE CONTROL].
 Descripción del programa, Formato - **DESCRIPCIÓN:** [DESCRIPCION DEL PROGRAMA]. En este punto, quiero que generes una descripción breve de la función que cumple el programa
 Versión del programa, Formato - **VERSIÓN:** [VERSIÓN DEL PROGRAMA].
@@ -135,7 +135,7 @@ Entrega la información en formato Markdown
 ```
 3. Extraer variables de control
 ```plaintext
-Fedora, ahora necesito que extraigas del código un listado de todas las VARIABLES DE CONTROL, estas son aquellas que con el siguiente formato (AI#, AO#, AV#, BI#, BO#, BV#, MSV#).
+Fedora, ahora necesito que identifiques en el código y realices un listado de todas las VARIABLES DE CONTROL, estas son aquellas que con el siguiente formato (AI#, AO#, AV#, BI#, BO#, BV#, MSV#).
 
 Enlistalas con el siguiente formato. ID DE VARIABLE DE CONTROL | UNIDADES | DESCRIPCION
 Ejemplo:
@@ -148,7 +148,7 @@ Entrega la información en formato Markdown.
 ```
 4. Extraer variables locales
 ```plaintext
-Fedora, ahora necesito que extraigas del código un listado de todas las VARIABLES LOCALES, estas son aquellas que vienen declaradas como LOCALS.
+Fedora, ahora necesito que identifiques en el código y realices un listado de todas las VARIABLES LOCALES, estas son aquellas que vienen declaradas como LOCALS.
 
 Enlistalas con el siguiente formato:
 1. **NOMBRE VARIABLE**  
