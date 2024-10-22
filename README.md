@@ -129,10 +129,14 @@ ID DE VARIABLE | NOMBRE DE VARIABLE | UNIDAD | DESCRIPCION.
 Ejemplo:
 **AI3** | `DP` | *"WC* | Caída de presión de flujo de aire VAV.
 
+Nota: todas las variables de control, son aquellas con el siguiente formato (AI#, AO#, AV#, BI#, BO#, BV#, MSV#)
+
 Después genera una sección llamada VARIABLES LOCALES: Proporciona una lista de las variables locales del programa bajo la sección # Variables Locales e incluye la descripción y unidades en el siguiente formato:
 1. **NOMBRE VARIABLE**  
    - ***DESCRIPCIÓN:*** Breve descripción.  
    - ***UNIDADES:*** [UNIDADES].
+
+Nota: Todas las variables locales son las que están declaradas como LOCALS
 
 Crea también una sección llamada LÓGICA DE CONTROL, en esta detalla la lógica de control del programa con una descripción clara y organizada. Presenta la información paso a paso.
 
