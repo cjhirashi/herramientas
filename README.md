@@ -162,6 +162,8 @@ Entrega la información en formato Markdown.
 ```plaintext
 Fedora, ahora necesito que generes una descripción clara y organizada de la lógica de control del programa. Presenta la información paso a paso y al final presenta un resumen de esta.
 
+Entrega la información en formato Markdown.
+
 ¡Gracias!"*
 ```
 
