@@ -130,7 +130,7 @@ Ejemplo:
 
 markdown
 Copiar código
-**AI3.10021** | `DP` | *"WC* | Caída de presión de flujo de aire VAV.
+**AI3** | `DP` | *"WC* | Caída de presión de flujo de aire VAV.
 Variables Locales: Proporciona una lista de las variables locales del programa bajo la sección # Variables Locales e incluye la descripción y unidades en el siguiente formato:
 
 markdown
