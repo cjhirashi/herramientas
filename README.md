@@ -137,7 +137,7 @@ Entrega la información en formato Markdown
 ```plaintext
 Fedora, ahora necesito que identifiques en el código y realices un listado de todas las VARIABLES DE CONTROL, estas son aquellas que con el siguiente formato (AI#, AO#, AV#, BI#, BO#, BV#, MSV#).
 
-Enlistalas con el siguiente formato. ID DE VARIABLE DE CONTROL | UNIDADES | DESCRIPCION
+Enlistalas en una tabla con el siguiente formato. ID DE VARIABLE | UNIDADES | DESCRIPCION
 Ejemplo:
 **AI3** | *"WC* | Caída de presión de flujo de aire VAV.
 
