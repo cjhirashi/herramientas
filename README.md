@@ -121,24 +121,20 @@ Controlador: Debe tener el formato - **CONTROLADOR:** [NOMBRE DE CONTROL].
 Descripción: Formato - **DESCRIPCIÓN:** [DESCRIPCION DEL PROGRAMA].
 Versión: Debe tener el formato - **VERSIÓN:** [VERSIÓN DEL PROGRAMA].
 Autor: Formato **AUTOR:** [NOMBRE DEL AUTOR] - @id.
-Luego, quiero que generes una sección llamada Variables de control para mostrar todas las variables utilizadas en el programa. La estructura de esta sección debe ser la siguiente:
 
+Luego generes una sección llamada VARIABLES DE CONTROL para mostrar todas las variables utilizadas en el programa. La estructura de esta sección debe ser la siguiente:
 Clasifica las variables en grupos de acuerdo a la funcionalidad que tengan dentro del programa.
 Para cada variable, proporciona la siguiente información en este formato:
-NOMBRE VARIABLE | NOMBRE ABREVIADO | UNIDAD | Descripción.
+ID DE VARIABLE | NOMBRE DE VARIABLE | UNIDAD | DESCRIPCION.
 Ejemplo:
-
-markdown
-Copiar código
 **AI3** | `DP` | *"WC* | Caída de presión de flujo de aire VAV.
-Variables Locales: Proporciona una lista de las variables locales del programa bajo la sección # Variables Locales e incluye la descripción y unidades en el siguiente formato:
 
-markdown
-Copiar código
+Después genera una sección llamada VARIABLES LOCALES: Proporciona una lista de las variables locales del programa bajo la sección # Variables Locales e incluye la descripción y unidades en el siguiente formato:
 1. **NOMBRE VARIABLE**  
-   - Descripción: Breve descripción.  
-   - Unidades: [UNIDADES].
-Lógica de control: Detalla la lógica de control del programa con una descripción clara y organizada. Presenta la información paso a paso.
+   - ***DESCRIPCIÓN:*** Breve descripción.  
+   - ***UNIDADES:*** [UNIDADES].
+
+Crea también una sección llamada LÓGICA DE CONTROL, en esta detalla la lógica de control del programa con una descripción clara y organizada. Presenta la información paso a paso.
 
 Aquí te dejo el código para que puedas analizarlo: [CÓDIGO].
 
