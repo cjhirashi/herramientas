@@ -112,35 +112,53 @@ Detalla qué debes tomar en cuenta: Asegúrate de eliminar cualquier imformació
 ```
 
 ### Carlos
-1. P
+Generación de documentación de programas para controladores KMC
+
+1. Extraer información del programa
+```plaintext
+Hola Fedora, necesito que el siguiente código [CODIGO] por favor.
+```
+2. Extraer información de identificación del programa
 ```txt
-*"Hola, Fedora. Necesito que leas el siguiente código y generes una documentación completa en formato Markdown que incluya la siguiente información:
+Fedora, ahora necesito que extraiga la siguiente información:
 
-Nombre del programa: Formato # [NOMBRE PROGRAMA].
-Controlador: Debe tener el formato - **CONTROLADOR:** [NOMBRE DE CONTROL].
-Descripción: Formato - **DESCRIPCIÓN:** [DESCRIPCION DEL PROGRAMA].
-Versión: Debe tener el formato - **VERSIÓN:** [VERSIÓN DEL PROGRAMA].
-Autor: Formato **AUTOR:** [NOMBRE DEL AUTOR] - @id.
+Nombre del programa, Formato # [NOMBRE PROGRAMA].
+Controlador, Formato - **CONTROLADOR:** [NOMBRE DE CONTROL].
+Descripción del programa, Formato - **DESCRIPCIÓN:** [DESCRIPCION DEL PROGRAMA]. En este punto, quiero que generes una descripción breve de la función que cumple el programa
+Versión del programa, Formato - **VERSIÓN:** [VERSIÓN DEL PROGRAMA].
+Autor, Formato **AUTOR:** [NOMBRE DEL AUTOR] - @id.
 
-Luego generes una sección llamada VARIABLES DE CONTROL para mostrar todas las variables utilizadas en el programa. La estructura de esta sección debe ser la siguiente:
-Clasifica las variables en grupos de acuerdo a la funcionalidad que tengan dentro del programa.
-Para cada variable, proporciona la siguiente información en este formato:
-ID DE VARIABLE | NOMBRE DE VARIABLE | UNIDAD | DESCRIPCION.
+Entrega la información en formato Markdown
+
+```
+3. Extraer variables de control
+```plaintext
+Fedora, ahora necesito que extraigas del código un listado de todas las VARIABLES DE CONTROL, estas son aquellas que con el siguiente formato (AI#, AO#, AV#, BI#, BO#, BV#, MSV#).
+
+Enlistalas con el siguiente formato. ID DE VARIABLE DE CONTROL | UNIDADES | DESCRIPCION
 Ejemplo:
-**AI3** | `DP` | *"WC* | Caída de presión de flujo de aire VAV.
+**AI3** | *"WC* | Caída de presión de flujo de aire VAV.
 
-Nota: todas las variables de control, son aquellas con el siguiente formato (AI#, AO#, AV#, BI#, BO#, BV#, MSV#)
+Si estas pueden ser agrupadas por sistema, agrupalas por favor.
 
-Después genera una sección llamada VARIABLES LOCALES: Proporciona una lista de las variables locales del programa bajo la sección # Variables Locales e incluye la descripción y unidades en el siguiente formato:
+Entrega la información en formato Markdown.
+
+```
+4. Extraer variables locales
+```plaintext
+Fedora, ahora necesito que extraigas del código un listado de todas las VARIABLES LOCALES, estas son aquellas que vienen declaradas como LOCALS.
+
+Enlistalas con el siguiente formato:
 1. **NOMBRE VARIABLE**  
    - ***DESCRIPCIÓN:*** Breve descripción.  
    - ***UNIDADES:*** [UNIDADES].
 
-Nota: Todas las variables locales son las que están declaradas como LOCALS
+Entrega la información en formato Markdown.
 
-Crea también una sección llamada LÓGICA DE CONTROL, en esta detalla la lógica de control del programa con una descripción clara y organizada. Presenta la información paso a paso.
-
-Aquí te dejo el código para que puedas analizarlo: [CÓDIGO].
+```
+5. Documentación de lógica de operación
+```plaintext
+Fedora, ahora necesito que generes una descripción clara y organizada de la lógica de control del programa. Presenta la información paso a paso y al final presenta un resumen de esta.
 
 ¡Gracias!"*
 ```
