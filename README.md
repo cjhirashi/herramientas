@@ -52,6 +52,11 @@
 
 ## PROMTS
 
+Cuando se estructura en conjunto con la IA el analisis de un dato y llegamos al resultado optimo, decirle a la IA lo siguiente:
+```plaintext
+Como debería estructurar el promt desde un inicio para llegar a este resultado?
+```
+
 1. P
 ```txt
 Haz una busqueda detallada en la web acerca de mi empresa a través del siguiente enlace: [enlace de empresa]. Profundiza en todos los aspectos para que adquieras un conocimiento profundo sobre mi empresa. Proporciona un resumen que incluya elementos como el nombre de la empresa, su sector, los productos o servicios que ofrece, qué necesidades cubre para los clientes, cómo surgió la empresa, los principios que rige la marca, qué la hace distinta de otras, y las ventajas o beneficios clave que ofrece frente a la competencia. Si es necesario, siente la libertad de navegar por diferentes secciones de la página web para recabar esta información.
@@ -112,10 +117,10 @@ Detalla qué debes tomar en cuenta: Asegúrate de eliminar cualquier imformació
 *"Hola, Fedora. Necesito que leas el siguiente código y generes una documentación completa en formato Markdown que incluya la siguiente información:
 
 Nombre del programa: Formato # [NOMBRE PROGRAMA].
-Controlador: Debe tener el formato - **Controlador:** [NOMBRE DE CONTROL].
-Descripción: Formato - **Descripción:** [DESCRIPCION DEL PROGRAMA].
-Versión: Debe tener el formato - **Versión:** [VERSIÓN DEL PROGRAMA].
-Autor: Formato **Autor:** [NOMBRE DEL AUTOR] - @id.
+**CONTROLADOR:** Debe tener el formato - **Controlador:** [NOMBRE DE CONTROL].
+**Descripción:** Formato - **Descripción:** [DESCRIPCION DEL PROGRAMA].
+**Versión:** Debe tener el formato - **Versión:** [VERSIÓN DEL PROGRAMA].
+**Autor:** Formato **Autor:** [NOMBRE DEL AUTOR] - @id.
 Luego, quiero que generes una sección llamada Variables de control para mostrar todas las variables utilizadas en el programa. La estructura de esta sección debe ser la siguiente:
 
 Clasifica las variables en grupos de acuerdo a la funcionalidad que tengan dentro del programa.
